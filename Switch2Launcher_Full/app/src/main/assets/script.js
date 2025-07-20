@@ -1,0 +1,1 @@
+function displayApps(apps){const c=document.getElementById('app-container');c.innerHTML='';apps.forEach(a=>{const d=document.createElement('div');d.className='app';d.innerHTML='<span>'+a.name+'</span>';c.appendChild(d);});}
