@@ -16,6 +16,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: cd
+        run: cd Switch2Launcher_Full
+
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
